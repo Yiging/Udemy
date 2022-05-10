@@ -1,15 +1,1 @@
-.demo_bg {
-  width: 100vw;
-  height: 100vh;
-  background: url(./picture/work.jpg);
-  background-size: cover;
-  opacity: 0.5;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
 
-.demo {
-  position: absolute;
-  top: 0;
-}

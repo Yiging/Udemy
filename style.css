@@ -8,14 +8,19 @@ p {
 
 /*設定連結樣式(改變預設顏色&底線)*/
 a {
-  background-color: aquamarine;
+  background-color: darkcyan;
   text-decoration: none;
-  color: rgb(14, 102, 157);
+  color: rgb(253, 242, 228);
 }
 /*置中*/
 table {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
+}
+
+th,
+td {
+  padding: 0.1rem 0.1rem;
 }
 
 body {
@@ -34,4 +39,12 @@ h1 {
   border: 5px solid rgb(185, 151, 151);
   width: 128px;
   padding: 1rem;
+}
+
+a:hover {
+  background-color: rgb(185, 151, 151);
+  color: white;
+}
+a {
+  transition: background-color 0.5s ease-in-out;
 }
